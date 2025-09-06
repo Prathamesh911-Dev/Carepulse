@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🩺 CarePulse: Instant Appointment Manager
 
-## Getting Started
+CarePulse is a modern web application built to streamline healthcare appointment management. It empowers patients to book appointments instantly—no queues, no delays—and allows admins to manage schedules, doctors, and live stats with secure OTP-based verification.
 
-First, run the development server:
+---
 
+## 🚀 Features
+
+### 👩‍⚕️ Patient/User Features
+- Patient registration and profile management  
+- Instant appointment booking (no waiting queues)  
+- Add personal details and medical history  
+- Secure OTP-based verification  
+- Easy appointment cancellation  
+
+### 🩺 Admin Features
+- Doctor management (9 doctors with info & photos)  
+- OTP verification for security  
+- Manage appointments: schedule, cancel, reschedule  
+- View live appointment statistics  
+
+### 🔐 Security & Messaging
+- Data stored securely using **Appwrite**  
+- **Twilio** integration for SMS notifications (OTP, reminders)  
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer        | Tools & Frameworks                             |
+|--------------|------------------------------------------------|
+| **Frontend** | React, Next.js, TypeScript, Tailwind CSS, shadcn UI |
+| **Backend**  | Appwrite (Database + Auth + Functions)         |
+| **Messaging**| Twilio (SMS OTP & reminders)                   |
+| **Deployment** | *(Add platform here: Vercel, Netlify, etc.)* |
+
+---
+
+## 📸 Screenshots
+
+> _Add screenshots or GIFs here to showcase the UI_  
+> - Patient dashboard  
+> - Appointment booking form  
+> - Doctor cards  
+> - Admin panel with live stats  
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/your-username/carepulse.git
+cd carepulse
