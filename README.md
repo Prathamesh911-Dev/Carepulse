@@ -50,5 +50,5 @@ CarePulse is a modern web application built to streamline healthcare appointment
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/carepulse.git
+git clone https://github.com/Prathamesh911-Dev/Carepulse.git
 cd carepulse
